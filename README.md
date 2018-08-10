@@ -2,21 +2,28 @@
 
 Webbench是一个在linux下使用的非常简单的网站压测工具。它使用fork()模拟多个客户端同时访问我们设定的URL，测试网站在压力下工作的性能，最多可以模拟3万个并发连接去测试网站的负载能力。
 
-## 依赖
-ctags
-
 ## 使用：
 
-1、安装ctags
+安装ctags
+```
 sudo apt-get install exuberant-ctags
-2、官网下载WebBench
+```
+官网下载WebBench
+```
 wget http://www.ha97.com/code/webbench-1.5.tar.gz
-3、解压缩
+```
+解压缩
+```
 tar zxvf webbench-1.5.tar.gz
-4、进入webbench-1.5目录
+```
+进入webbench-1.5目录
+```
 cd webbench1.5
-5、安装
+```
+安装
+```
 make install
+```
   
 ## 命令行选项：
 
