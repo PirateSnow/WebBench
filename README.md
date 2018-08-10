@@ -7,7 +7,26 @@ ctags
 
 ## 使用：
 
-	sudo make && sudo make install PREFIX=your_path_to_webbench
+	1、安装ctags
+	```
+	sudo apt-get install exuberant-ctags
+	```
+	2、官网下载WebBench
+	```
+	wget http://www.ha97.com/code/webbench-1.5.tar.gz
+	```
+	3、解压缩
+	```
+	tar zxvf webbench-1.5.tar.gz
+	```
+	4、进入webbench-1.5目录
+	```
+	cd webbench1.5
+	```
+	5、安装
+	```
+	make install
+	```
   
 ## 命令行选项：
 
@@ -30,3 +49,6 @@ ctags
 |       |--trace                |使用 TRACE请求方法                 |
 |-?/-h  |--help                 |打印帮助信息                       |
 |-V     |--version              |显示版本号                         |
+
+## 测试
+用法：webbench -c 并发量 -t 运行测试时间 URL
