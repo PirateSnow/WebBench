@@ -7,36 +7,21 @@ ctags
 
 ## 使用：
 
-	1、安装ctags
-
-	```
-	sudo apt-get install exuberant-ctags
-	```
-
-	2、官网下载WebBench
-	```
-	wget http://www.ha97.com/code/webbench-1.5.tar.gz
-	```
-	3、解压缩
-	```
-	tar zxvf webbench-1.5.tar.gz
-	```
-	4、进入webbench-1.5目录
-	```
-	cd webbench1.5
-	```
-	5、安装
-	```
-	make install
-	```
+1、安装ctags
+sudo apt-get install exuberant-ctags
+2、官网下载WebBench
+wget http://www.ha97.com/code/webbench-1.5.tar.gz
+3、解压缩
+tar zxvf webbench-1.5.tar.gz
+4、进入webbench-1.5目录
+cd webbench1.5
+5、安装
+make install
   
 ## 命令行选项：
 
-
-
-
 | 短参        | 长参数           | 作用   |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------:|:---------------------------------:|
 |-f     |--force                |不需要等待服务器响应               | 
 |-r     |--reload               |发送重新加载请求                   |
 |-t     |--time <sec>           |运行多长时间，单位：秒"            |
